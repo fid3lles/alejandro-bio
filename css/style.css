@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'BeaufortForLoLRegular';
+    src: url('../src/font/BeaufortForLoL-OTF/BeaufortforLOL-Regular.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: BeaufortForLoLRegular, Arial, sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/245b4173f2b90cd0e181ea1be4ad876154696a7a-1920x798.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: 100% !important;
+    background-position: center top !important;
+    color: #fff;
+}
+
+.content {
+    padding-top: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.title {
+    color: #f0e6d2;
+    font-family: 'BeaufortForLoLRegular', Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+}
+
+.subtitle {
+    color: #c8aa6e;
+    font-family: 'BeaufortForLoLRegular', Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 140%;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#biography {
+    color: #f0e6d2;
+    max-width: 600px;
+
+    p {
+        padding: 10px 0;
+        font-family: 'BeaufortForLoLRegular', Arial, sans-serif;
+        font-weight: 400;
+        letter-spacing: .02em;
+        line-height: 140%;
+        font-size: 18px;
+        letter-spacing: -.004em;
+        line-height: 1.58;
+        position: relative;
+        text-align: left;
+    }
+
+}
+
+#scroll-down {
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    max-width: 100px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
