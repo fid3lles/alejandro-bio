@@ -9,12 +9,12 @@
 
 body {
     font-family: BeaufortForLoLRegular, Arial, sans-serif;
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(https://cmsassets.rgpub.io/sanity/images/dsfx7636/universe_live/245b4173f2b90cd0e181ea1be4ad876154696a7a-1920x798.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(../src/img/alejandro_kukulcan.png);
     background-repeat: no-repeat;
     background-attachment: fixed !important;
-    background-size: 100% !important;
+    background-size: 50% !important;
     background-position: center top !important;
-    color: #fff;
+    background-color: #111318 !important;
 }
 
 .content {
@@ -73,6 +73,44 @@ body {
 
 }
 
+.div-module {
+    background-color: #111318;
+    border: 1px solid #31271e;
+    box-shadow: 0px 0px 8px 0px rgba(200,170,110,0.1);
+    padding: 42px;
+    position: relative;
+
+    p {
+        font-weight: 700 !important;
+        text-align: center !important;
+    }
+
+    .quote-img {
+        position: absolute;
+        top: 21px;
+        right: 21px;
+    }
+
+}
+
+.play-container {
+    display: block;
+    margin: 0;
+    text-align: center;
+    max-width: 25px;
+    max-height: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+
+    .play-button {
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+}
+
 #scroll-down {
     display: block;
     margin: 0;
@@ -84,4 +122,10 @@ body {
         width: 100%;
         height: auto;
     }
+}
+
+@media (max-width: 1024px) {
+
+    /* Nothing */
+
 }
