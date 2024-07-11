@@ -5,6 +5,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -91,6 +92,37 @@ body {
         right: 21px;
     }
 
+    .img-reffered {
+
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        
+        img {
+            width: 100%;
+            border: 1px solid #31271e;
+        }
+
+        small {
+            padding-top: 10px;
+            text-transform: uppercase;
+            color: #937341;
+            text-align: center;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        
+    }
+}
+
+.play-svg-inline {
+    padding-left: 10px;
+
+    img {
+        top: 5px;
+        width: 20px;
+    }
+    
 }
 
 .play-container {
@@ -123,6 +155,28 @@ body {
         height: auto;
     }
 }
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #c8aa6e;
+    width: 0%;
+  }
 
 @media (max-width: 1024px) {
 
